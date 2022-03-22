@@ -4,7 +4,7 @@
 	padding:0px;
 }
 .show-layout{
-	outline:solid white;
+	/*outline:solid white;*/
 }
 
 /*header*/
@@ -40,14 +40,21 @@ main{
 
 /*footer*/
 
+.list-style-none{
+	list-style:none;
+}
+footer ul li:hover{
+	text-decoration:underline;
+}
+
+
+
 .bg-red-netflix{
 	background-color:#e30813;
 }
 .color-red-netflix{
 	color:#e30813;
 }
-
-
 
 
 /*sizes*/
@@ -120,7 +127,7 @@ main{
 .width32{
 	width:320px;
 }
-
+/*medias*/
 @media only screen and (max-width:990px){
 	header, .navbar{
 		background-color:#212529;
