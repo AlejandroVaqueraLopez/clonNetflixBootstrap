@@ -4,11 +4,12 @@
 	padding:0px;
 }
 .show-layout{
-	/*outline:solid white;*/
+	outline:solid white;
 }
 
 /*header*/
 header{
+	width:100%;
 }
 .header-icon{
 	color:white;
