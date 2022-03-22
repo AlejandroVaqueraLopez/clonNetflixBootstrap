@@ -1,0 +1,131 @@
+/*globals*/
+*{
+	margin:0px;
+	padding:0px;
+}
+.show-layout{
+	outline:solid white;
+}
+
+/*header*/
+header{
+}
+.header-icon{
+	color:white;
+}
+
+/*main*/
+main{
+}
+.main-section_container{
+	padding-top:120px;
+	min-height:80vh;
+	background-image:url("./images/netflix-background.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.main-section_container h1{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:-1px;
+	font-size:60px;
+}
+.container-black{
+	background-color:#000;
+}
+
+.poster-container img{
+	width:100%;
+}
+
+
+/*footer*/
+
+.bg-red-netflix{
+	background-color:#e30813;
+}
+.color-red-netflix{
+	color:#e30813;
+}
+
+
+
+
+/*sizes*/
+.height1{
+	height:10px;
+}
+.height2{
+	height:20px;
+}
+.height3{
+	height:30px;
+}
+.height4{
+	height:40px;
+}
+.height5{
+	height:50px;
+}
+.height6{
+	height:60px;
+}
+.height7{
+	height:70px;
+}
+.height8{
+	height:80px;
+}
+.height9{
+	height:90px;
+}
+.height10{
+	height:100px;
+}
+.height11{
+	height:110px;
+}
+.height12{
+	height:120px;
+}
+
+
+
+.width1{
+	width:10px;
+}
+.width2{
+	width:20px;
+}
+.width3{
+	width:30px;
+}
+.width4{
+	width:40px;
+}
+.width5{
+	width:50px;
+}
+.width6{
+	width:60px;
+}
+.width7{
+	width:70px;
+}
+.width12{
+	width:120px;
+}
+.width25{
+	width:250px;
+}
+.width32{
+	width:320px;
+}
+
+@media only screen and (max-width:990px){
+	header, .navbar{
+		background-color:#212529;
+	}
+	.main-section_container h1{
+		font-size:40px;
+	}
+}
